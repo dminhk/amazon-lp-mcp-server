@@ -50,7 +50,7 @@ To use this MCP server with Amazon Q CLI, add it to your Q CLI configuration:
 {
   "mcpServers": {
     "AmazonLP": {
-      "command": "uv",
+      "command": "uvx",
       "args": [
         "git+https://github.com/dminhk/amazon-lp-mcp-server/"
       ]
