@@ -69,25 +69,11 @@ You can now ask Amazon Q about Amazon Leadership Principles, and it will use the
 
 ### Available Tools
 
-The server provides the following tools:
+The server provides the following simplified tools:
 
-#### Leadership Principles Tools
+1. **amazon_lp** - Provides the complete Amazon Leadership Principles data from amazon-lp.json.
 
-1. **List all Amazon Leadership Principles** - Returns a complete list of all Amazon Leadership Principles with their descriptions.
-
-2. **Search Amazon Leadership Principles** - Search for principles by name or description.
-
-3. **Get a specific Amazon Leadership Principle** - Retrieve a specific principle by name.
-
-4. **Get introduction to Amazon Leadership Principles** - Get the introduction text for Amazon Leadership Principles.
-
-#### Transcript Tools
-
-5. **Get transcript for a Leadership Principle** - Retrieve the video transcript for a specific leadership principle.
-
-6. **List all available transcripts** - Get a list of all leadership principles that have transcripts available.
-
-7. **Search within transcripts** - Search for a term within all leadership principle transcripts.
+2. **amazon_lp_transcripts** - Provides Andy Jassy's Leadership Principles video transcripts from transcripts.json.
 
 ## Example Queries
 
@@ -105,7 +91,7 @@ When using with Amazon Q CLI, you can ask questions like:
 The server uses the following data sources:
 
 - `amazon-lp.json` - Contains all Amazon Leadership Principles and their descriptions
-- `transcripts.json` - Contains the video transcripts for each leadership principle
+- `transcripts.json` - Contains Andy Jassy's video transcripts for each leadership principle
 
 ## Development
 
